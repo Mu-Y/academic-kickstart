@@ -1,0 +1,87 @@
+---
+title: "Synthing: A WaveNet-based Singing Voice Synthisizer"
+authors: ["**Mu Yang**", "James Bunning", "Shiyu Mou", "Sharada Murali", "Yixin Yang"]
+date: "2018-12-05"
+doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: ""
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+#publication_types: ["4"]
+
+# Publication name and optional abbreviated publication name.
+publication: 
+publication_short:
+
+abstract: "Recent advances in synthesizing singing voice from a music score and lyrics have been achieved using a Neural Parametric Singing Synthesizer ([NPSS](https://www.mdpi.com/2076-3417/7/12/1313)) based on a modified version of the WaveNet architecture. This model trains on phonetic transcriptions of lyrics and acoustic features, and is able to significantly reduce training and generation times while still achieving the sound quality and naturalness of state-of-the-art concatenative systems. Although NPSS can model a specific singer’s voice and style of singing, it cannot generate a new singing performance given new singer data. SynthSing, our WaveNet-based singing synthesizer, expands on the NPSS synthesizer to generate a singer’s voice given new singing data and has the potential to transform the timbre of one singer’s voice into that of another singer. We found that the WaveNet-based model produces superior results in terms of naturalness and sound quality."
+
+# Summary. An optional shortened abstract.
+summary: "Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implement of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313)."
+
+tags:
+- proj
+featured: true
+
+links:
+- name: Audio Samples
+  url: "https://soundcloud.com/mu-yang-974011976/sets/results-for-synthsing"
+url_pdf: 'https://github.com/Mu-Y/SynthSing/blob/master/Final_report.pdf'
+url_code: 'https://github.com/Mu-Y/SynthSing'
+url_dataset: 'https://drive.google.com/open?id=1LQgP49jjZTb4FVEf5PevsoiBDhCIyaWp'
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: 'Timbre Model Architecture'
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+#projects:
+#- internal-project
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: example
+---
+
+### Method
+
+We implemented the Timbre model mentioned in the framework of the [NPSS](https://www.mdpi.com/2076-3417/7/12/1313) paper. The input acoustic features include log-Mel Spectral Frequency Coefficients(**MFSCs**) and Band Aperiodicity(**AP**) which are extracted by WORLD vocoder. The generation is **conditioned on control inputs** including **F0**(extracted by WORLD) and time-aligned **phonemes**. During generation(inference), the model generates MFSCs and APs, which are used for audio re-synthesis along with the true F0 via WORLD vocoder.
+
+For more details, take a look at our [report](https://github.com/Mu-Y/SynthSing/blob/master/Final_report.pdf) and the original [NPSS paper](https://www.mdpi.com/2076-3417/7/12/1313).
+
+### Dataset
+
+We used two datasets: 1) NIT Japanese Nursery dataset and 2) self-curated Coldplay songs dataset.
+
+### Results(Audio Samples)
+
+Listen to some of our sythesized audio samples below!
+
+- Trained on NIT data. We took one of the training recordings as target. Resynthesized using true F0, generated MFSC and AP.
+    - [Target](https://soundcloud.com/mu-yang-974011976/hit-004_orignal?in=mu-yang-974011976/sets/results-for-synthsing)
+    - [Synthesized](https://soundcloud.com/mu-yang-974011976/hit_004_synthesized?in=mu-yang-974011976/sets/results-for-synthsing)
+- Trained on NIT data. Generating previously unseen sequences by splicing together random clips from the NIT recordings and doing a similar concatenation of the corresponding F0 and phonemes for each audio clip.
+    - [Target](https://soundcloud.com/mu-yang-974011976/hit_scramble_original?in=mu-yang-974011976/sets/results-for-synthsing)
+    - [Synthesized](https://soundcloud.com/mu-yang-974011976/hit_scramble_synthesized?in=mu-yang-974011976/sets/results-for-synthsing)
+- Trained on self-created dataset. we resynthesized recordings in the Coldplay dataset using true F0 and AP, and MFSCs generated by the harmonic submodel.
+    - [Target](https://soundcloud.com/mu-yang-974011976/coldplay-song02-01-007?in=mu-yang-974011976/sets/results-for-synthsing)
+    - [Synthesized](https://soundcloud.com/mu-yang-974011976/coldplay_007_synthesized?in=mu-yang-974011976/sets/results-for-synthsing)
+

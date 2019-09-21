@@ -21,9 +21,9 @@ superuser: true
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Natural Language processing
-- Spoken language processing
-- Machine Learning
+- Information Extraction(Event and Event Relation)
+- Natural/Spoken Language Processing
+- Speech Recognition/Synthesis
 
 education:
   courses:
