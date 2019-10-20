@@ -2,8 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Spoken Language Intent Detection using Confusion2Vec"
-authors: ["Prashanth Gurunath Shivakumar*" , "**Mu Yang***", "Panayiotis Georgiou"]
-date: 2019-09-20T16:56:26-07:00
+authors: ["**Mu Yang***", "Prashanth Gurunath Shivakumar*", "Panayiotis Georgiou"]
+date:  2019-09-20T16:56:26-07:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -50,14 +50,14 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://arxiv.org/pdf/1904.03576.pdf"
-#url_code:
-url_dataset: "https://github.com/pgurunath/slu_confusion2vec"
-#url_poster:
-#url_project:
-#url_slides:
-#url_source:
-#url_video:
+url_pdf: https://arxiv.org/pdf/1904.03576.pdf
+url_code:
+url_dataset: https://github.com/pgurunath/slu_confusion2vec
+url_poster:
+url_project:
+url_slides:
+url_source:
+url_video:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

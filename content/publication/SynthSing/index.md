@@ -14,13 +14,13 @@ publishDate: ""
 #publication_types: ["4"]
 
 # Publication name and optional abbreviated publication name.
-publication: 
+publication: "*USC course EE599: Deep Learning Lab for Speech Processing*"
 publication_short:
 
 abstract: "Recent advances in synthesizing singing voice from a music score and lyrics have been achieved using a Neural Parametric Singing Synthesizer ([NPSS](https://www.mdpi.com/2076-3417/7/12/1313)) based on a modified version of the WaveNet architecture. This model trains on phonetic transcriptions of lyrics and acoustic features, and is able to significantly reduce training and generation times while still achieving the sound quality and naturalness of state-of-the-art concatenative systems. Although NPSS can model a specific singer’s voice and style of singing, it cannot generate a new singing performance given new singer data. SynthSing, our WaveNet-based singing synthesizer, expands on the NPSS synthesizer to generate a singer’s voice given new singing data and has the potential to transform the timbre of one singer’s voice into that of another singer. We found that the WaveNet-based model produces superior results in terms of naturalness and sound quality."
 
 # Summary. An optional shortened abstract.
-summary: "Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implement of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313)."
+summary: "Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implementation of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313)."
 
 tags:
 - proj
@@ -63,7 +63,9 @@ slides: example
 
 ### Method
 
-We implemented the Timbre model mentioned in the framework of the [NPSS](https://www.mdpi.com/2076-3417/7/12/1313) paper. The input acoustic features include log-Mel Spectral Frequency Coefficients(**MFSCs**) and Band Aperiodicity(**AP**) which are extracted by WORLD vocoder. The generation is **conditioned on control inputs** including **F0**(extracted by WORLD) and time-aligned **phonemes**. During generation(inference), the model generates MFSCs and APs, which are used for audio re-synthesis along with the true F0 via WORLD vocoder.
+We implemented the Timbre model mentioned in the framework of the [NPSS](https://www.mdpi.com/2076-3417/7/12/1313) paper. 
+
+Unlike the vanilla sample-to-sample WaveNet, the proposed model makes frame-to-frame predictions on 60-dimensional log-Mel Spectral Frequency Coefficients(**MFSCs**)and 4-dimensional Band Aperiodicity(**AP**) Coefficients, using F0(coarse coded), phoneme identity(one-hot coded) and normalized phoneme position(coarse coded) as local control inputs and singer identity as global control inputs. Then we feed generated MFSCs and APs, as well as true F0 into WORLD vocoder to synthesize audio. The features, i.e. MFSCs, APs and F0 are also extracted via WORLD.
 
 For more details, take a look at our [report](https://github.com/Mu-Y/SynthSing/blob/master/Final_report.pdf) and the original [NPSS paper](https://www.mdpi.com/2076-3417/7/12/1313).
 
