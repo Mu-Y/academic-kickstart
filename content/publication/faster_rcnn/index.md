@@ -1,0 +1,73 @@
+---
+title: "Faster-RCNN for Pedestrian Detection in Videos"
+authors: ["**Mu Yang**"]
+date: "2017-06-01"
+doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: ""
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+#publication_types: ["4"]
+
+# Publication name and optional abbreviated publication name.
+publication: "*Graduation Project for Undergraduates at Chongqing University*"
+#publication_short: "*Graduation Project for Undergraduates at Chongqing University*"
+
+abstract: "Train and Employ Faster-RCNN framework to perform pedestrain detection in videos."
+
+# Summary. An optional shortened abstract.
+summary: "Train and deploy Faster-RCNN framework to perform pedestrain detection in videos."
+
+tags:
+- proj
+featured: true
+
+links:
+
+#url_pdf: 
+#url_code: 
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects:
+#- internal-project
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: example
+---
+
+### Method
+
+Re-train [Faster-RCNN](https://arxiv.org/pdf/1506.01497.pdf) on VOC 2007 and VOC 2012, and also Caltech pedestrian dataset to perform pedestrian detection.
+
+Apply the model on videos to generate pedestrian bounding-boxes frame-by-frame, with some bounding boxes smoothing techniques.
+
+
+### Results
+
+When fed with a video where pedestrians appear during specific frames, the network will process the video and output a new video with pedestrians marked by the bouding boxes.
+
+![picture demo](./Picture3.png)

@@ -64,7 +64,7 @@ slides: example
 
 Mel-frequency Spectrum features are used to train the Auto-encoder Network.
 
-For more details, take a look at the [GitHub page](https://github.com/Mu-Y/SynthSing/blob/master/Final_report.pdf).
+For more details, take a look at the [GitHub page](https://github.com/Mu-Y/AutoEncoder-Denoiser).
 
 ### Dataset
 
