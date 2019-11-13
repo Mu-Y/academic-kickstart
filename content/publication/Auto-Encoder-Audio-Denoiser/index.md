@@ -80,6 +80,6 @@ Listen to some of the audio samples below!
   + [De-noised](https://soundcloud.com/mu-yang-974011976/d_train?in=mu-yang-974011976/sets/auto-encoder-audio-denoiser)
 - Testing audio
   + [Original](https://soundcloud.com/mu-yang-974011976/s_test?in=mu-yang-974011976/sets/auto-encoder-audio-denoiser)
-  + [Noise-mixed(failed due to copyright issue)]
+  + [Noise-mixed(unavailable due to copyright issue)]
   + [De-noised](https://soundcloud.com/mu-yang-974011976/d_test?in=mu-yang-974011976/sets/auto-encoder-audio-denoiser)
 

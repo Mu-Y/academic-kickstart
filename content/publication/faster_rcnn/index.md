@@ -17,10 +17,10 @@ publishDate: ""
 publication: "*Graduation Project for Undergraduates at Chongqing University*"
 #publication_short: "*Graduation Project for Undergraduates at Chongqing University*"
 
-abstract: "Train and Employ Faster-RCNN framework to perform pedestrain detection in videos."
+abstract: "Train and Employ a Faster-RCNN framework to perform pedestrain detection in videos."
 
 # Summary. An optional shortened abstract.
-summary: "Train and deploy Faster-RCNN framework to perform pedestrain detection in videos."
+summary: "Train and deploy a Faster-RCNN framework to perform pedestrain detection in videos."
 
 tags:
 - proj
@@ -68,6 +68,6 @@ Apply the model on videos to generate pedestrian bounding-boxes frame-by-frame, 
 
 ### Results
 
-When fed with a video where pedestrians appear during specific frames, the network will process the video and output a new video with pedestrians marked by the bouding boxes.
+When fed with a video where pedestrians appear during specific frames, the network will process and output a new video with pedestrians marked by the bouding boxes.
 
 ![picture demo](./Picture3.png)

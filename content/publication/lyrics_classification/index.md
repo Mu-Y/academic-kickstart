@@ -20,7 +20,7 @@ publication_short:
 abstract: "Web crawler of lyrics and corresponding music genre. Multiple baseline classifiers, including KNN, Naive Bayes, LSTM are applied to identify genre of a song by analyzing its lyrics."
 
 # Summary. An optional shortened abstract.
-summary: "Web crawler of lyrics and corresponding music genre. Multiple baseline classifiers, such as KNN, Naive Bayes, SVM and Neural Approach(LSTM) are applied to identify the genre of a song by analyzing its lyrics."
+summary: "Web crawler of lyrics and corresponding music genre. Multiple baseline classifiers, such as Naive Bayes, SVM and Neural Approach(LSTM) are applied to identify the genre of a song by analyzing its lyrics."
 
 tags:
 - proj
@@ -91,4 +91,4 @@ For more details, take a look at our [report](https://github.com/Mu-Y/CSCI544_Pr
 | SVM           | 0.588      
 | LSTM          | 0.563        
 
-Interestingly, the Baive Bayes Classifier works pretty well, outperforming all others. That said, I have to recognize, the LSTM model has a few hyperparameters(e.g. hidden layer dimension, learning rate, etc) to be tuned. But due to the time and computation resource limitation, these tunning is not adequantly performed. It'll be interesting to see in the future that whether there will be more performance boost with a thorough parameter tuning.
+Interestingly, the Baive Bayes Classifier works pretty well, outperforming all others. That said, I have to recognize, the LSTM model has a few hyperparameters(e.g. hidden layer dimension, learning rate, etc) to be tuned. But due to the time and computation resource limitation, these tuning are not adequantly performed. It'll be interesting to see in the future that whether there will be more performance boost with a thorough parameter tuning.

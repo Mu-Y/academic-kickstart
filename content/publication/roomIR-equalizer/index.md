@@ -1,5 +1,5 @@
 ---
-title: "Parallel Second-order Filter-based Equalizer for Digital Room Correction"
+title: "Digital Room Correction using Parallel Second-order Filter-based Equalizer"
 authors: ["**Mu Yang**"]
 date: "2018-04-20"
 doi: ""
