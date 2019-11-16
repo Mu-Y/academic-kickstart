@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
-title = "Posts and Blogs\n(In Progress...)"
+title = "Misc."
 subtitle = ""
 
 [content]
@@ -65,3 +65,9 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+I love music! I play guitar(a lot), bass(a little), drum(a little) and violin(>10 years back). I play and sing in a few (unprofessional) bands. We covered songs from our favorite artists. Check out some of our videos!
+
+- [I sing and play guitar](https://www.youtube.com/watch?v=-cB48_U216Q)
+- [I sing and play guitar](https://www.youtube.com/watch?v=xhl2iMbYU2Q)(forgive the poor video quality...)
+- [A campus event, 1](https://www.youtube.com/watch?v=wE7t5uVWLK8)(forgive the poor video quality...)
+- [A campus event, 2](https://www.youtube.com/watch?v=eZ-lLoLWCkU&t=4s)(forgive the poor video quality...)
