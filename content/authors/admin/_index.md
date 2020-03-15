@@ -74,9 +74,9 @@ email: ""
 # - Visitors
 ---
 
-Hi, there! My name is Mu Yang. I obtained by M.S. degree in Electrical Engineering at University of Southern California(USC). Currently I am working as a research assistant at [Plus Lab](https://www.cs.jhu.edu/~npeng/group.html)  at USC [Information Scienceses Institute](https://www.isi.edu/research_groups/nlg/home)(ISI), fortunate to be supervised by [Prof. Nanyun (Violet) Peng](https://www.cs.jhu.edu/~npeng/).
+Hi, there! My name is Mu Yang. I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). Currently I am working as a research assistant at [Plus Lab](https://www.cs.jhu.edu/~npeng/group.html)  at USC [Information Scienceses Institute](https://www.isi.edu/research_groups/nlg/home) (ISI), fortunate to be supervised by [Prof. Nanyun (Violet) Peng](https://www.cs.jhu.edu/~npeng/).
 
-My research interests lie in Natural Language Understanding and Informatoin Extraction, specifically Event Temporal Relation Extraction and Biomedical Event Extraction. Previously I also work on Spoken Language Understanding and Speech Synthesis, collaborating with [Prof. Panayiotis Georgiou](http://scuba.usc.edu/panos) and folks from [SCUBA Lab](http://scuba.usc.edu/) at USC.
+My research interests lie in Natural Language Understanding and Information Extraction, specifically Event Temporal Relation Extraction and Biomedical Event Extraction. Previously I also work on Spoken Language Understanding and Speech Synthesis, collaborating with [Prof. Panayiotis Georgiou](http://scuba.usc.edu/panos) and folks from [SCUBA Lab](http://scuba.usc.edu/) at USC.
 
 I am now applying to PhD starting from Fall 2020.
 

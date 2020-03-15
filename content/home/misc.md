@@ -65,7 +65,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-I love music! I play guitar(a lot), bass(a little), drum(a little) and violin(>10 years back). I play and sing in a few (unprofessional) bands. We covered songs from our favorite artists. Check out some of our videos!
+I love music! I play guitar (a lot), bass (a little), drum (a little) and violin (>10 years back). I play and sing in a few (unprofessional) bands. We covered songs from our favorite artists. Check out some of our videos!
 
 - [I sing and play guitar](https://www.youtube.com/watch?v=-cB48_U216Q)
 - [I sing and play guitar](https://www.youtube.com/watch?v=xhl2iMbYU2Q)(forgive the poor video quality...)
