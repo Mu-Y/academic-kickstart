@@ -31,10 +31,10 @@ education:
     institution: University of Southern California, U.S.
     year: 2019
   - course: B.Eng. in Communication Engineering
-    institution: Chongqing Univeristy, China
+    institution: Chongqing University, China
     year: 2017
   - course: Exchange Student
-    institution: National Sun Yat-sen Univeristy, Taiwan
+    institution: National Sun Yat-sen University, Taiwan
     year: 2016
 
 # Social/Academic Networking
