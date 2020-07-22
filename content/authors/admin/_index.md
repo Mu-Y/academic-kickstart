@@ -21,9 +21,9 @@ superuser: true
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
+- Voice/Accent Conversion, Speech Synthesis
 - Information Extraction(Event and Event Relation)
 - Natural/Spoken Language Processing
-- Speech Recognition/Synthesis
 
 education:
   courses:
@@ -74,9 +74,11 @@ email: ""
 # - Visitors
 ---
 
-Hi, there! My name is Mu Yang. I'm an incoming Ph.D. student in Computer Science and Engineering (CSE) at Texas A&M University starting from 2020 Fall. I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). Currently I am working as a research assistant at [Plus Lab](https://www.cs.jhu.edu/~npeng/group.html)  at USC [Information Scienceses Institute](https://www.isi.edu/research_groups/nlg/home) (ISI), fortunate to be supervised by [Prof. Nanyun (Violet) Peng](https://www.cs.jhu.edu/~npeng/).
+Hi, there! My name is Mu Yang. I'm an incoming Ph.D. student in Computer Science and Engineering (CSE) at Texas A&M University starting from 2020 Fall. My supervisor is Prof. [Ricardo Gutierrez-Osuna] (https://engineering.tamu.edu/cse/profiles/rgutierrez-osuna.html).
 
-My research interests lie in Natural Language Understanding and Information Extraction, specifically Event Temporal Relation Extraction and Biomedical Event Extraction. Previously I also work on Spoken Language Understanding and Speech Synthesis, collaborating with [Prof. Panayiotis Georgiou](http://scuba.usc.edu/panos) and folks from [SCUBA Lab](http://scuba.usc.edu/) at USC.
+I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). During my Master's study, I worked with [Prof. Panayiotis Georgiou](http://scuba.usc.edu/panos) and folks from [SCUBA Lab](http://scuba.usc.edu/) on Spoken Language Understanding and Speech Synthesis problems. After that I spent one year working as a research assistant at [Plus Lab](https://pluslabnlp.github.io/)  at USC [Information Scienceses Institute](https://www.isi.edu/research_groups/nlg/home) (ISI), fortunate to be supervised by Prof. [Nanyun (Violet) Peng](http://vnpeng.net/).
+
+My research interests lie in Natural/Spoken Language Processing. I will be working on Voice Conversion and Accent Conversion during my Ph.D. In the past, I also had much experience in Natural Language Processing, especially in Information Extraction projects (Event and Event Temporal Relation Extraction).
 
 
 
