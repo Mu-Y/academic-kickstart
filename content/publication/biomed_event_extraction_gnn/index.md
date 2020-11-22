@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Deep Structured Neural Network for Event Temporal Relation Extraction"
-authors: ["Rujun Han*", "I-Hung Hsu*", "**Mu Yang**", "Aram Galstyan", "Ralph Weischedel", "Nanyun Peng"]
-date: 2019-09-20T17:06:47-07:00
+title: "Biomedical Event Extraction with Hierarchical Knowledge Graphs"
+authors: ["Kung-Hsiang Huang", "**Mu Yang**", "Nanyun Peng"]
+date:  
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019-09-20T17:06:47-07:00
+publishDate: 2020-11-20T17:06:47-07:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,10 +16,10 @@ publishDate: 2019-09-20T17:06:47-07:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "The SIGNLL Conference on Computational Natural Language Learning(CoNLL) 2019"
-publication_short: "CoNLL 2019"
+publication: "EMNLP 2020 (Findings)"
+publication_short: "EMNLP 2020 (Findings)"
 
-abstract: "We propose a novel deep structured learning framework for event temporal relation extraction. The model consists of 1) a recurrent neural network (RNN) to learn scoring functions for pair-wise relations, and 2) a structured support vector machine (SSVM) to make joint predictions. The neural network automatically learns representations that account for long-term contexts to provide robust features for the structured model, while the SSVM incorporates domain knowledge such as transitive closure of temporal relations as constraints to make better globally consistent decisions. By jointly training the two components, our model combines the benefits of both data-driven learning and knowledge exploitation. Experimental results on three high-quality event temporal relation datasets (TCR, MATRES, and TB-Dense) demonstrate that incorporated with pre-trained contextualized embeddings, the proposed model achieves significantly better performances than the state-of-the-art methods on all three datasets. We also provide thorough ablation studies to investigate our model."
+abstract: "Biomedical event extraction is critical in understanding biomolecular interactions described in scientific corpus. One of the main challenges is to identify nested structured events that are associated with non-indicative trigger words. We propose to incorporate domain knowledge from Unified Medical Language System (UMLS) to a pre-trained language model via a hierarchical graph representation encoded by a proposed Graph Edgeconditioned Attention Networks (GEANet). To better recognize the trigger words, each sentence is first grounded to a sentence graph based on a jointly modeled hierarchical knowledge graph from UMLS. The grounded graphs are then propagated by GEANet, a novel graph neural networks for enhanced capabilities in inferring complex events. On BioNLP 2011 GENIA Event Extraction task, our approach achieved 1.41% F1 and 3.19% F1 improvements on all events and complex events, respectively. Ablation studies confirm the importance of GEANet and hierarchical KG."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,8 +36,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/pdf/1909.10094.pdf
-url_code: https://github.com/PlusLabNLP/Deep-Structured-EveEveTemp
+url_pdf: https://www.aclweb.org/anthology/2020.findings-emnlp.114.pdf
+url_code: https://github.com/PlusLabNLP/GEANet-BioMed-Event-Extraction
 url_dataset:
 url_poster:
 url_project:

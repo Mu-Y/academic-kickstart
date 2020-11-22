@@ -46,9 +46,9 @@ social:
   icon_pack: fas
   link: mailto:yangmu@isi.edu
   # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/MuYang55
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=vNINDR4AAAAJ&hl=en
