@@ -27,12 +27,15 @@ interests:
 
 education:
   courses:
+  - course: Ph.D. in Computer Science
+    institution: Texas A&M University, U.S.
+    year: 2020-
   - course: M.S. in Electrical Engineering
     institution: University of Southern California, U.S.
-    year: 2019
+    year: 2017-2019
   - course: B.Eng. in Communication Engineering
     institution: Chongqing University, China
-    year: 2017
+    year: 2013-2017
   - course: Exchange Student
     institution: National Sun Yat-sen University, Taiwan
     year: 2016
@@ -74,11 +77,11 @@ email: ""
 # - Visitors
 ---
 
-Hi, there! My name is Mu Yang. I'm an incoming Ph.D. student in Computer Science and Engineering (CSE) at Texas A&M University starting from 2020 Fall. My supervisor is Prof. [Ricardo Gutierrez-Osuna] (https://engineering.tamu.edu/cse/profiles/rgutierrez-osuna.html).
+Hi, there! My name is Mu Yang. I'm a 1st year Ph.D. student in Computer Science and Engineering (CSE) at Texas A&M University. My supervisor is Prof. [Ricardo Gutierrez-Osuna] (https://engineering.tamu.edu/cse/profiles/rgutierrez-osuna.html).
 
 I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). During my Master's study, I worked with [Prof. Panayiotis Georgiou](http://scuba.usc.edu/panos) and folks from [SCUBA Lab](http://scuba.usc.edu/) on Spoken Language Understanding and Speech Synthesis problems. After that I spent one year working as a research assistant at [Plus Lab](https://pluslabnlp.github.io/)  at USC [Information Scienceses Institute](https://www.isi.edu/research_groups/nlg/home) (ISI), fortunate to be supervised by Prof. [Nanyun (Violet) Peng](http://vnpeng.net/).
 
-My research interests lie in Natural/Spoken Language Processing. I will be working on Voice Conversion and Accent Conversion during my Ph.D. In the past, I also had much experience in Natural Language Processing, especially in Information Extraction projects (Event and Event Temporal Relation Extraction).
+My research interests lie in Natural/Spoken Language Processing. I am working on Voice Conversion and Accent Conversion. In the past, I also had much experience in Natural Language Processing, especially in Information Extraction projects (Event and Event Temporal Relation Extraction).
 
 
 
