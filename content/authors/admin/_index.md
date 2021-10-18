@@ -21,15 +21,18 @@ superuser: true
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Voice/Accent Conversion, Speech Synthesis
-- Information Extraction(Event and Event Relation)
+- Speech Recognition, Speech Synthesis
 - Natural/Spoken Language Processing
+- Information Extraction (Event and Event Relation)
 
 education:
   courses:
+  - course: Ph.D. in Electrical and Computer Engineering
+    institution: University of Texas at Dallas, U.S.
+    year: 2021-
   - course: Ph.D. in Computer Science
     institution: Texas A&M University, U.S.
-    year: 2020-
+    year: 2020-2021 (quitted)
   - course: M.S. in Electrical Engineering
     institution: University of Southern California, U.S.
     year: 2017-2019
@@ -47,7 +50,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:yangmu@isi.edu
+  link: mailto:mu.yang@utdallas.edu
   # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
@@ -77,11 +80,11 @@ email: ""
 # - Visitors
 ---
 
-Hi, there! My name is Mu Yang. I'm a 1st year Ph.D. student in Computer Science and Engineering (CSE) at Texas A&M University. My supervisor is Prof. [Ricardo Gutierrez-Osuna] (https://engineering.tamu.edu/cse/profiles/rgutierrez-osuna.html).
+Hi, there! My name is Mu Yang. I'm a 1st year Ph.D. student in Electrical and Computer Engineering (ECE) at University of Texas at Dallas. My supervisor is Prof. [John H. L. Hansen] (https://personal.utdallas.edu/~jxh052100/). I'm a member of UTD Center for Robust Speech Systems ([UTD CRSS] (https://crss.utdallas.edu/)). My research interests include Speech Recognition and Speech Synthesis. In the past, I also had experience in Natural Language Processing, especially in Information Extraction (Event and Event Temporal Relation Extraction).
 
-I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). During my Master's study, I worked with [Prof. Panayiotis Georgiou](http://scuba.usc.edu/panos) and folks from [SCUBA Lab](http://scuba.usc.edu/) on Spoken Language Understanding and Speech Synthesis problems. After that I spent one year working as a research assistant at [Plus Lab](https://pluslabnlp.github.io/)  at USC [Information Scienceses Institute](https://www.isi.edu/research_groups/nlg/home) (ISI), fortunate to be supervised by Prof. [Nanyun (Violet) Peng](http://vnpeng.net/).
+I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). During my Master's study, I worked with [Dr. Panayiotis Georgiou](http://scuba.usc.edu/panos) on Spoken Language Understanding and Speech Synthesis problems. I also worked with [Dr. Nanyun (Violet) Peng](http://vnpeng.net/) on Natural Langauge Processing and Information Extraction at USC Information Scienceses Institute ([USC ISI] (https://www.isi.edu/research_groups/nlg/home)). During 2020-2021, I was a Computer Science Ph.D. student at Texas A&M Univeristy, working on Speech Mis-pronunciation Recognition and Speech Synthesis.
 
-My research interests lie in Natural/Spoken Language Processing. I am working on Voice Conversion and Accent Conversion. In the past, I also had much experience in Natural Language Processing, especially in Information Extraction projects (Event and Event Temporal Relation Extraction).
+
 
 
 
