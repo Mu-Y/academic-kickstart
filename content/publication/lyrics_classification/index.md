@@ -91,4 +91,4 @@ For more details, take a look at our [report](https://github.com/Mu-Y/CSCI544_Pr
 | SVM           | 0.588      
 | LSTM          | 0.563        
 
-Interestingly, the Baive Bayes Classifier works pretty well, outperforming all others. That said, I have to recognize, the LSTM model has a few hyperparameters(e.g. hidden layer dimension, learning rate, etc) to be tuned. But due to the time and computation resource limitation, these tuning are not adequantly performed. It'll be interesting to see in the future that whether there will be more performance boost with a thorough parameter tuning.
+Interestingly, the Baive Bayes Classifier works pretty well, outperforming all others. That said, I have to recognize, the LSTM model has a few hyperparameters(e.g. hidden layer dimension, learning rate, etc) to be tuned. But due to the time and computation resource limitation, these tuning are not adequately performed. It'll be interesting to see in the future that whether there will be more performance boost with a thorough parameter tuning.
