@@ -63,7 +63,7 @@ slides: example
 
 Re-train [Faster-RCNN](https://arxiv.org/pdf/1506.01497.pdf) on VOC 2007 and VOC 2012, and also Caltech pedestrian dataset to perform pedestrian detection.
 
-Apply the model on videos to generate pedestrian bounding-boxes frame-by-frame, with some bounding boxes smoothing techniques.
+Apply the model on videos to generate pedestrian bounding-boxes frame-by-frame. Frame-wise bounding boxes are smoothed by moving average. Then the processed frames were concatenated to generate a new video.
 
 
 ### Results

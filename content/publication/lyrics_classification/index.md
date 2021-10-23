@@ -64,7 +64,7 @@ slides: example
 
 #### Lyrics Collection
 
-We start from a list of artists. We utilize the [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) to request meta data for each artist, including song name, genre, album/collection name, release year, etc. Then a web crawler is applied to fetch lyrics on [Genius](https://genius.com/), using artist names and song names. Finally the collected lyrics are cleaned up.
+We start from a list of artists. We utilize the [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) to request meta data for each artist, including song name, genre, album/collection name, release year, etc. Then a web crawler is applied to fetch lyrics on [Genius](https://genius.com/), using artist names and song names. Finally the collected lyrics are cleaned up by some basic processing: removing too-short lyrics, deduplication, etc.
 
 #### Classifiers
 

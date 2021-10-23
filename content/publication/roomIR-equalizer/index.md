@@ -17,7 +17,7 @@ publishDate: ""
 publication: "*USC course EE522: Immersive Audio Processing*"
 publication_short:
 
-abstract: "Room Acoustics matters. Producers in studio need to monitor every subtle detail in music. Every ordinary people wants excellent sound quality for their playback system to enjoy movies, music, TV broadcast, etc. However, if the room where the sound system is installed gives undesired acoustical effect on the audio, these wishes could never come true, no matter how much money you invest in your electronic playback system. Bad room acoustics is a common problem in almost every realistic room. That is why we need extra calibration technologies to make up for the acoustical effect, or to put it more specifically, the frequency response of the room.  <br /> <br /> In this project, a Parallel second-order-based equalizer design method is deployed for loudspeaker-room correction problem. "
+abstract: "Room Acoustics matters. Producers in studio need to monitor every subtle detail in music. Every ordinary people wants excellent sound quality for their playback system to enjoy movies, music, TV broadcast, etc. However, if the room where the sound system is installed produces undesired acoustic effects (e.g. reverbration), these wishes could never come true, no matter how much money you invest in your electronic playback system. Bad room acoustics is a common problem in almost every realistic room. That is why we need extra calibration technologies to make up for the room acoustics, or to put it more specifically, the frequency response of the room. In this project, a Parallel second-order-based equalizer design method is deployed for loudspeaker-room correction. "
 
 # Summary. An optional shortened abstract.
 summary: "A Parallel second-order-based equalizer for Room Impulse Response Calibration."
@@ -28,7 +28,7 @@ featured: true
 
 links:
 - name: Audio Samples
-  url: https://soundcloud.com/mu-yang-974011976/sets/roomir-equalizer
+  url: https://mu-y.github.io/speech_samples/roomIR/
 url_pdf: 'https://github.com/Mu-Y/RoomIR-equalizer/blob/master/final_report.pdf'
 url_code: 'https://github.com/Mu-Y/RoomIR-equalizer.git'
 #url_poster: '#'
@@ -66,18 +66,10 @@ Mostly referred to [Balázs Bank, 2008](https://ieeexplore.ieee.org/document/452
 
 ### Dataset
 
-Open-source Room Impulse Response from [openairlib.net](http://www.openairlib.net/auralizationdb/content/live-room-sound-studio-laboratory-university-athens)(Unfortunately, this amazing website is currently down due to unknown reasons.). The file `r8-omni-conf_b.wav` in the [GitHub repo](https://github.com/Mu-Y/RoomIR-equalizer.git) is one of the recorded Room Impulse Response wav files from a sound studio of the Laboratory of Music Acoustics Technology (LabMAT) at the Department of Music Studies of the University of Athens.
+Open-source Room Impulse Response from [openairlib.net](http://www.openairlib.net/auralizationdb/content/live-room-sound-studio-laboratory-university-athens) (Unfortunately, this amazing website is currently down due to unknown reasons.). The file `r8-omni-conf_b.wav` in the [GitHub repo](https://github.com/Mu-Y/RoomIR-equalizer.git) is one of the recorded Room Impulse Response wav files from a sound studio of the Laboratory of Music Acoustics Technology (LabMAT) at the Department of Music Studies of the University of Athens.
 
-### Results(Audio Samples)
+### Results (Audio Samples)
 
-Convolve audio with the Room Impulse Responses, to hear the impact of Room Impulse Response on the listening experience, and also the calibration of the equalizer.
+Listen to the audio samples below!
 
-- Sound studio Impulse Response(data accompanying this repo), audio is a classical music clip.
-  - Original: [audio](https://soundcloud.com/mu-yang-974011976/classic-short?in=mu-yang-974011976/sets/roomir-equalizer)
-  - Conv with Room Impulse Response: [audio](https://soundcloud.com/mu-yang-974011976/classic-short-live-studio?in=mu-yang-974011976/sets/roomir-equalizer)
-  - Conv with **Equalized** Room Impulse Response: [audio](https://soundcloud.com/mu-yang-974011976/classic-short-live-studio-eq?in=mu-yang-974011976/sets/roomir-equalizer)
-
-- Another Impulse Response from an office room, audio is an EDM clip.
-  - Original: [audio](https://soundcloud.com/mu-yang-974011976/edm-short?in=mu-yang-974011976/sets/roomir-equalizer)
-  - Conv with Room Impulse Response: [audio](https://soundcloud.com/mu-yang-974011976/edm-short-air-office?in=mu-yang-974011976/sets/roomir-equalizer)
-  - Conv with **Equalized** Room Impulse Response: [audio](https://soundcloud.com/mu-yang-974011976/edm-short-air-office-eq?in=mu-yang-974011976/sets/roomir-equalizer)
+[Audio samples html page](https://mu-y.github.io/speech_samples/roomIR/)
