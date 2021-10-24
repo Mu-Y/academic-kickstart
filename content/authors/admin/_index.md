@@ -80,9 +80,9 @@ email: ""
 # - Visitors
 ---
 
-Hi, there! My name is Mu Yang. I'm a 1st year Ph.D. student in Electrical and Computer Engineering (ECE) at University of Texas at Dallas. My supervisor is Prof. [John H. L. Hansen] (https://personal.utdallas.edu/~jxh052100/). I'm a member of UTD Center for Robust Speech Systems ([UTD CRSS] (https://crss.utdallas.edu/)). My research interests include Speech Recognition and Speech Synthesis. In the past, I also had experience in Natural Language Processing, especially in Information Extraction (Event and Event Temporal Relation Extraction).
+Hi, there! My name is Mu Yang. I'm a 1st year Ph.D. student in Electrical and Computer Engineering (ECE) at University of Texas at Dallas. My supervisor is [Dr. John H. L. Hansen](https://personal.utdallas.edu/~jxh052100/). I'm a member of UTD Center for Robust Speech Systems ([UTD CRSS](https://crss.utdallas.edu/)). My research interests include Speech Recognition and Speech Synthesis. In the past, I also had experience in Natural Language Processing, especially in Information Extraction (Event and Event Temporal Relation Extraction).
 
-I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). During my Master's study, I worked with [Dr. Panayiotis Georgiou](http://scuba.usc.edu/panos) on Spoken Language Understanding and Speech Synthesis problems. I also worked with [Dr. Nanyun (Violet) Peng](http://vnpeng.net/) on Natural Langauge Processing and Information Extraction at USC Information Scienceses Institute ([USC ISI] (https://www.isi.edu/research_groups/nlg/home)). During 2020-2021, I was a Computer Science Ph.D. student at Texas A&M Univeristy, working on Speech Mis-pronunciation Recognition and Speech Synthesis.
+During my Master's study at USC, I worked with [Dr. Panayiotis Georgiou](http://scuba.usc.edu/panos) on Spoken Language Understanding and Speech Synthesis problems. I also worked with [Dr. Nanyun (Violet) Peng](http://vnpeng.net/) on Natural Langauge Processing and Information Extraction at USC Information Scienceses Institute ([USC ISI](https://www.isi.edu/research_groups/nlg/home)). During 2020-2021, I was a Computer Science Ph.D. student at Texas A&M Univeristy, working on Speech Mis-pronunciation Recognition and Voice/Accent Conversion.
 
 
 
