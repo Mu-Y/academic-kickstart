@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Towards Lifelong Learning of Multilingual Text-To-Speech Synthesis"
-authors: ["**Mu Yang**", "Shaojin Ding", "Tianlong Chen", "Tong Wang", "Zhangyang Wang"]
-date:  2022-05-12T16:56:26-07:00
+title: "Joint hypoglycemia prediction and glucose forecasting via deep multi-task learning"
+authors: ["**Mu Yang**", "Darpit Dave", "Madhav Erraguntla", "Gerard L. Cote", "Ricardo Gutierrez-Osuna"]
+date:  2022-05-07T16:56:26-07:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -19,7 +19,7 @@ publication_types: ["1"]
 publication: "ICASSP 2022"
 publication_short: "ICASSP 2022"
 
-abstract: 'This work presents a lifelong learning approach to train a multilingual Text-To-Speech (TTS) system, where each language was seen as an individual task and was learned sequentially and continually. It does not require pooled data from all languages altogether, and thus alleviates the storage and computation burden. One of the challenges of lifelong learning methods is "catastrophic forgetting": in TTS scenario it means that model performance quickly degrades on previous languages when adapted to a new language. We approach this problem via a data-replay-based lifelong learning method. We formulate the replay process as a supervised learning problem, and propose a simple yet effective dual-sampler framework to tackle the heavily language-imbalanced training samples. Through objective and subjective evaluations, we show that this supervised learning formulation outperforms other gradient-based and regularization-based lifelong learning methods, achieving 43% Mel-Cepstral Distortion reduction compared to a fine-tuning baseline.'
+abstract: 'We present a multitask learning approach to the problem of hypoglycemia (HG) prediction in diabetes.  The approach is based on a state-of-the-art time series forecasting model, N-BEATS, and extends it by adding a classification task so that the model performs both glucose forecasting (i.e., predicting future glucose values) and HG prediction (i.e., probability of future HG events sometime within the prediction horizon).  We also propose an alternative loss function that penalizes forecasting errors in the HG range.  We evaluate the approach on a dataset containing over 1.6M recordings from 112 patients with type 1 diabetes who wore a continuous glucose monitor (CGM) for 90 days.  Our results show that the classification branch significantly outperforms the forecasting branch on the problem of HG prediction, and that the new loss function is more effective at reducing forecasting errors in the HG range than multi-task learning.'
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -30,17 +30,17 @@ featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
+#links:
 #  - name: Preprint
 #    url: https://arxiv.org/pdf/2110.04482.pdf
-  - name: Audio Samples
-    url: https://mu-y.github.io/speech_samples/llltts/
+#  - name: Audio Samples
+#    url: https://mu-y.github.io/speech_samples/llltts/
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/pdf/2110.04482.pdf
-url_code: https://github.com/Mu-Y/lll-tts
+url_pdf: https://ieeexplore.ieee.org/document/9746129
+# url_code:
 # url_dataset: https://github.com/pgurunath/slu_confusion2vec
 # url_poster:
 # url_project:
