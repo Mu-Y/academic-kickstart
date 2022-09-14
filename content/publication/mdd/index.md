@@ -16,8 +16,8 @@ publishDate: 2021-10-09T16:56:26-07:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*submitted* to Interspeech 2022"
-publication_short: "*submitted* to Interspeech 2022"
+publication: "Interspeech 2022 (Oral)"
+publication_short: "Interspeech 2022 (Oral)"
 
 abstract: 'Current leading mispronunciation detection and diagnosis (MDD) systems achieve promising performance via end-to-end phoneme recognition. One challenge of such end-to-end solutions is the scarcity of human-annotated phonemes on natural L2 speech. In this work, we leverage unlabeled L2 speech via a pseudo-labeling (PL) procedure and extend the fine-tuning approach based on pre-trained self-supervised learning (SSL) models. Specifically, we use Wav2vec 2.0 as our SSL model, and fine-tune it using original labeled L2 speech samples plus the created pseudo-labeled L2 speech samples. Our pseudo labels are dynamic and are produced by an ensemble of the online model on-the-fly, which ensures that our model is robust to pseudo label noise. We show that fine-tuning with pseudo labels gains a 5.35% phoneme error rate reduction and  2.48% MDD F1 score improvement over a labeled-samples-only fine-tuning baseline. The proposed PL method is also shown to outperform conventional offline PL methods. Compared to the state-of-the-art MDD systems, our MDD solution achieves a more accurate and consistent phonetic error diagnosis. In addition, we conduct an open test on a separate UTD-4Accents dataset, where our system recognition outputs show a strong correlation with human perception, based on accentedness and intelligibility.'
 
