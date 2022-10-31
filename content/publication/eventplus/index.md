@@ -2,7 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "EventPlus: A Temporal Event Understanding Pipeline"
-authors: ["Mingyu Derek Ma*", "Jiao Sun*", "**Mu Yang**", "Kung-Hsiang Huang", "Nuan Wen", "Shikhar Singh", "Rujun Han", "Nanyun Peng"]
+authors: 
+  - "Mingyu Derek Ma"
+  - "Jiao Sun"
+  - admin
+  - "Kung-Hsiang Huang"
+  - "Nuan Wen"
+  - "Shikhar Singh"
+  - "Rujun Han"
+  - "Nanyun Peng"
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 date: 2021-01-13T17:06:47-07:00
 doi: ""
 

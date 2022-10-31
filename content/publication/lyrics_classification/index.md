@@ -1,6 +1,10 @@
 ---
 title: "Collection and Classification of Lyrics"
-authors: ["**Mu Yang**", "Tao Chen", "Chang Su", "Zhe Yang"]
+authors: 
+  - admin
+  - "Tao Chen"
+  - "Chang Su"
+  - "Zhe Yang"
 date: "2018-11-20"
 doi: ""
 
@@ -57,7 +61,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 ### Method

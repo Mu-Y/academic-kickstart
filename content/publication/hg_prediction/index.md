@@ -2,7 +2,12 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Joint hypoglycemia prediction and glucose forecasting via deep multi-task learning"
-authors: ["**Mu Yang**", "Darpit Dave", "Madhav Erraguntla", "Gerard L. Cote", "Ricardo Gutierrez-Osuna"]
+authors: 
+  - admin
+  - "Darpit Dave"
+  - "Madhav Erraguntla"
+  - "Gerard L. Cote"
+  - "Ricardo Gutierrez-Osuna"
 date:  2022-05-07T16:56:26-07:00
 doi: ""
 

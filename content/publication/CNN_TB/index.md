@@ -2,7 +2,11 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "A CNN-based active learning framework to identify mycobacteria in digitized Ziehl-Neelsen stained human tissues"
-authors: ["**Mu Yang**", "Karolina Nurzynska", "Ann E. Walts", "Arkadiusz Gertych"]
+authors: 
+  - admin
+  - "Karolina Nurzynska"
+  - "Ann E. Walts"
+  - "Arkadiusz Gertych"
 date:  
 doi: ""
 

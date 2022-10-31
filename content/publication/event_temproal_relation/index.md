@@ -2,7 +2,16 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Deep Structured Neural Network for Event Temporal Relation Extraction"
-authors: ["Rujun Han*", "I-Hung Hsu*", "**Mu Yang**", "Aram Galstyan", "Ralph Weischedel", "Nanyun Peng"]
+authors: 
+  - "Rujun Han"
+  - "I-Hung Hsu"
+  - admin
+  - "Aram Galstyan"
+  - "Ralph Weischedel"
+  - "Nanyun Peng"
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 date: 2019-09-20T17:06:47-07:00
 doi: ""
 

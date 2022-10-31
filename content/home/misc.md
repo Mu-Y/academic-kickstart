@@ -1,8 +1,7 @@
 +++
 # A Recent Blog Posts section created with the Pages widget.
-# This section displays recent blog posts from `content/post/`.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/ blank will not refer to anything under "content/"
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
@@ -68,6 +67,6 @@ subtitle = ""
 I love music! I play guitar (a lot), bass (a little), drum (a little) and violin (>10 years back). I play and sing in a few (unprofessional) bands. We covered songs from our favorite artists. Check out some of our videos!
 
 - [I sing and play guitar](https://www.youtube.com/watch?v=-cB48_U216Q)
-- [I sing and play guitar](https://www.youtube.com/watch?v=xhl2iMbYU2Q)(forgive the poor video quality...)
-- [A campus event, 1](https://www.youtube.com/watch?v=wE7t5uVWLK8)(forgive the poor video quality...)
-- [A campus event, 2](https://www.youtube.com/watch?v=eZ-lLoLWCkU&t=4s)(forgive the poor video quality...)
+- [I sing and play guitar](https://www.youtube.com/watch?v=xhl2iMbYU2Q) (forgive the poor video quality...)
+- [A campus event, 1](https://www.youtube.com/watch?v=wE7t5uVWLK8) (forgive the poor video quality...)
+- [A campus event, 2](https://www.youtube.com/watch?v=eZ-lLoLWCkU&t=4s) (forgive the poor video quality...)

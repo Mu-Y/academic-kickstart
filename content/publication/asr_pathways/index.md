@@ -2,7 +2,14 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Learning ASR pathways: A sparse multilingual ASR model"
-authors: ["**Mu Yang**", "Andros Tjandra", "Chunxi Liu", "David Zhang", "Duc Le", "John H. L. Hansen", "Ozlem Kalinli"]
+authors:
+  - admin
+  - Andros Tjandra
+  - Chunxi Liu
+  - David Zhang
+  - Duc Le
+  - Ozlem Kalinli
+
 date:  2022-09-13T16:56:26-07:00
 doi: ""
 
@@ -17,7 +24,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Arxiv preprint, 2022"
-publication_short: "Arxiv preprint, 2022"
+publication_short: '*submitted to ICASSP 2023*'
 
 abstract: 'Neural network pruning can be effectively applied to compress automatic speech recognition (ASR) models. However, in multilingual ASR, performing language-agnostic pruning may lead to severe performance degradation on some languages because language-agnostic pruning masks may not fit all languages and discard important language-specific parameters. In this work, we present ASR pathways, a sparse multilingual ASR model that activates language-specific sub-networks (pathways), such that the parameters for each language are learned explicitly. With the overlapping sub-networks, the shared parameters can also enable knowledge transfer for lower resource languages via joint multilingual training. We propose a novel algorithm to learn ASR pathways, and evaluate the proposed method on 4 languages with a streaming RNN-T model. Our proposed ASR pathways outperform both dense models (-5.0% average WER) and a language-agnostically pruned model (-21.4% average WER), and provide better performance on low-resource languages compared to the monolingual sparse models.'
 

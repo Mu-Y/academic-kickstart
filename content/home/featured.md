@@ -3,7 +3,7 @@
 # This section displays publications from `content/publication/` which have
 # `featured = true` in their front matter.
 
-widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "collection"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
@@ -24,6 +24,7 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
+    featured_only = true  # this line is necessary to show ONLY the featured publications.
     tag = ""
     category = ""
     publication_type = ""

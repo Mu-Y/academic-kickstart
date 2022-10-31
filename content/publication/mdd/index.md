@@ -2,7 +2,12 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Improving Mispronunciation Detection with Wav2vec2-based Momentum Pseudo-Labeling for Accentedness and Intelligibility Assessment"
-authors: ["**Mu Yang**", "Kevin Hirschi", "Stephen D. Looney", "Okim Kang", "John H. L. Hansen"]
+authors: 
+  - admin
+  - "Kevin Hirschi"
+  - "Stephen D. Looney"
+  - "Okim Kang"
+  - "John H. L. Hansen"
 date:  2022-05-17T16:56:26-07:00
 doi: ""
 
@@ -31,15 +36,13 @@ featured: false
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-  - name: Preprint
-    url: https://arxiv.org/pdf/2203.15937.pdf
   - name: Audio Samples
     url: https://mu-y.github.io/speech_samples/mdd_IS22/
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
 
-# url_pdf: https://arxiv.org/pdf/1904.03576.pdf
+url_pdf: https://www.isca-speech.org/archive/pdfs/interspeech_2022/yang22v_interspeech.pdf
 # url_code:
 # url_dataset: https://github.com/pgurunath/slu_confusion2vec
 # url_poster:

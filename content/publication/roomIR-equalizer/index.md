@@ -1,6 +1,7 @@
 ---
 title: "Digital Room Correction using Parallel Second-order Filter-based Equalizer"
-authors: ["**Mu Yang**"]
+authors: 
+  - admin
 date: "2018-04-20"
 doi: ""
 
@@ -57,7 +58,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 ### Method

@@ -2,7 +2,12 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Towards Lifelong Learning of Multilingual Text-To-Speech Synthesis"
-authors: ["**Mu Yang**", "Shaojin Ding", "Tianlong Chen", "Tong Wang", "Zhangyang Wang"]
+authors: 
+  - admin
+  - "Shaojin Ding"
+  - "Tianlong Chen"
+  - "Tong Wang"
+  - "Zhangyang Wang"
 date:  2022-05-12T16:56:26-07:00
 doi: ""
 

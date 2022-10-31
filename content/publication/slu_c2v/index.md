@@ -2,7 +2,13 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Spoken Language Intent Detection using Confusion2Vec"
-authors: ["Prashanth G. Shivakumar*", "**Mu Yang***", "Panayiotis Georgiou"]
+authors: 
+  - "Prashanth G. Shivakumar"
+  - admin
+  - "Panayiotis Georgiou"
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 date:  2019-09-20T16:56:26-07:00
 doi: ""
 

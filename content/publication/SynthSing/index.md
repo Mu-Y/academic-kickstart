@@ -1,6 +1,11 @@
 ---
 title: "Synthing: A WaveNet-based Singing Voice Synthisizer"
-authors: ["**Mu Yang**", "James Bunning", "Shiyu Mou", "Sharada Murali", "Yixin Yang"]
+authors: 
+  - admin
+  - "James Bunning"
+  - "Shiyu Mou"
+  - "Sharada Murali"
+  - "Yixin Yang"
 date: "2018-12-05"
 doi: ""
 
@@ -58,7 +63,7 @@ image:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 ### Method

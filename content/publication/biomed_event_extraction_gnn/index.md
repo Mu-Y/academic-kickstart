@@ -2,7 +2,10 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Biomedical Event Extraction with Hierarchical Knowledge Graphs"
-authors: ["Kung-Hsiang Huang", "**Mu Yang**", "Nanyun Peng"]
+authors: 
+  - "Kung-Hsiang Huang"
+  - admin
+  - "Nanyun Peng"
 date:  
 doi: ""
 
