@@ -25,7 +25,7 @@ summary: "Train and deploy a Faster-RCNN framework to perform pedestrain detecti
 
 tags:
 - proj
-featured: true
+featured: false
 
 links:
 

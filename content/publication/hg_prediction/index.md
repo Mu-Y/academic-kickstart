@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Joint hypoglycemia prediction and glucose forecasting via deep multi-task learning"
+title: "Joint Hypoglycemia Prediction and Glucose Forecasting via Deep Multi-task Learning"
 authors: 
   - admin
   - "Darpit Dave"

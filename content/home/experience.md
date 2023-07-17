@@ -23,6 +23,18 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Intern
+    company: Microsoft
+    company_url: ''
+    company_logo: microsoft
+    location: Redmond, WA, USA
+    date_start: '2023-05-22'
+    date_end: '2023-08-18'
+    description: |2-
+        Mentors: Naoyuki Kanda, Xiaofei Wang. Manager: Takuya Yoshioka ([Cognitive Services Research Speech team](https://www.microsoft.com/en-us/research/group/speech-research-team/)).
+
+        Speech Translation.
+
+  - title: Research Intern
     company: Meta AI
     company_url: ''
     company_logo: meta
@@ -30,7 +42,7 @@ experience:
     date_start: '2022-05-16'
     date_end: '2022-08-19'
     description: |2-
-        Mentors: Andros Tjandra, Chunxi Liu, David Zhang.
+        Mentors: Andros Tjandra, Chunxi Liu, David Zhang. Manager: Duc Le, Ozlem Kalinli (AI Speech team). 
 
         Develop multilingual ASR technologies for on-device scenario.
 

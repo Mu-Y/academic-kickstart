@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "A CNN-based active learning framework to identify mycobacteria in digitized Ziehl-Neelsen stained human tissues"
+title: "A CNN-based Active Learning Framework to Identify Mycobacteria in Digitized Ziehl-Neelsen Stained Human Tissues"
 authors: 
   - admin
   - "Karolina Nurzynska"

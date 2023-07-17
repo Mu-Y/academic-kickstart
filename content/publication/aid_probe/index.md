@@ -1,20 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Learning ASR Pathways: A Sparse Multilingual ASR Model"
+title: "What Can an Accent Identifier Learn? Probing Phonetic and Prosodic Information in a Wav2vec2-based Accent Identification Model"
 authors:
   - admin
-  - Andros Tjandra
-  - Chunxi Liu
-  - David Zhang
-  - Duc Le
-  - Ozlem Kalinli
+  - Ram C. M. C. Shekar
+  - Okim Kang, 
+  - John H. L. Hansen
 
-date:  2023-06-04T16:56:26-07:00
+date:  2023-06-13T16:56:26-07:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-06-04T16:56:26-07:00
+publishDate: 2023-06-13T16:56:26-07:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -23,10 +21,10 @@ publishDate: 2022-06-04T16:56:26-07:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ICASSP 2023"
-publication_short: 'ICASSP 2023'
+publication: "Interspeech 2023"
+publication_short: 'Interspeech 2023'
 
-abstract: 'Neural network pruning can be effectively applied to compress automatic speech recognition (ASR) models. However, in multilingual ASR, performing language-agnostic pruning may lead to severe performance degradation on some languages because language-agnostic pruning masks may not fit all languages and discard important language-specific parameters. In this work, we present ASR pathways, a sparse multilingual ASR model that activates language-specific sub-networks (pathways), such that the parameters for each language are learned explicitly. With the overlapping sub-networks, the shared parameters can also enable knowledge transfer for lower resource languages via joint multilingual training. We propose a novel algorithm to learn ASR pathways, and evaluate the proposed method on 4 languages with a streaming RNN-T model. Our proposed ASR pathways outperform both dense models (-5.0% average WER) and a language-agnostically pruned model (-21.4% average WER), and provide better performance on low-resource languages compared to the monolingual sparse models.'
+abstract: 'This study is focused on understanding and quantifying the change in phoneme and prosody information encoded in the Self-Supervised Learning (SSL) model, brought by an accent identification (AID) fine-tuning task. This problem is addressed based on model probing. Specifically, we conduct a systematic layer-wise analysis of the representations of the Transformer layers on a phoneme correlation task, and a novel word-level prosody prediction task. We compare the probing performance of the pre-trained and fine-tuned SSL models. Results show that the AID fine-tuning task steers the top 2 layers to learn richer phoneme and prosody representation. These changes share some similarities with the effects of fine-tuning with an Automatic Speech Recognition task. In addition, we observe strong accent-specific phoneme representations in layer 9. To sum up, this study provides insights into the understanding of SSL features and their interactions with fine-tuning tasks.'
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -39,7 +37,7 @@ featured: false
 #   Uncomment and edit lines below to show custom links.
 links:
  - name: PDF
-   url: https://arxiv.org/pdf/2209.05735.pdf
+   url: https://arxiv.org/pdf/2306.06524.pdf
   # - name: Audio Samples
     # url: https://mu-y.github.io/speech_samples/llltts/
 #   url: https://twitter.com
