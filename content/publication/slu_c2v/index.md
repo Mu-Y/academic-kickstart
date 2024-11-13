@@ -22,8 +22,8 @@ publishDate: 2019-09-20T16:56:26-07:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "InterSpeech 2019"
-publication_short: "InterSpeech 2019"
+publication: "Interspeech 2019"
+publication_short: "Interspeech 2019"
 
 abstract: "Decoding speaker’s intent is a crucial part of spoken language
 understanding (SLU). The presence of noise or errors in the

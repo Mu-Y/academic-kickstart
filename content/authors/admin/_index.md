@@ -85,7 +85,7 @@ highlight_name: true
 # - Visitors
 ---
 
-Hi, there! My name is Mu Yang. I'm a 2nd year Ph.D. student in Electrical and Computer Engineering (ECE) at University of Texas at Dallas. My advisor is [Dr. John H. L. Hansen](https://personal.utdallas.edu/~jxh052100/). I'm a member of UTD Center for Robust Speech Systems ([UTD CRSS](https://crss.utdallas.edu/)). 
+Hi, there! My name is Mu Yang. I'm a 3rd year Ph.D. student in Electrical and Computer Engineering (ECE) at University of Texas at Dallas. My advisor is [Dr. John H. L. Hansen](https://personal.utdallas.edu/~jxh052100/). I'm a member of UTD Center for Robust Speech Systems ([UTD CRSS](https://crss.utdallas.edu/)). 
 
 My research interests include Speech Recognition and Speech Synthesis. My recent works have focused on accented (non-native) speech assessment and multilingual Automatic Speech Recognition. In the past, I also had experience in Spoken Language Understanding (Intent Classification) and Natural Language Processing (Event and Event Temporal Relation Extraction).
 

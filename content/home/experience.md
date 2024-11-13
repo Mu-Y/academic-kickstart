@@ -23,6 +23,17 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Intern
+    company: Meta AI
+    company_url: ''
+    company_logo: meta
+    location: New York City, NY, USA
+    date_start: '2024-05-13'
+    date_end: '2024-08-16'
+    description: |2-
+        Mentors: Bowen Shi, Matthew Le, Wei-Ning Hsu. Manager: Andros Tjandra (FAIR Audiobox team).
+
+        Text-to-audio generation.
+  - title: Research Intern
     company: Microsoft
     company_url: ''
     company_logo: microsoft
